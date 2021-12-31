@@ -1,38 +1,32 @@
 {
 	"user": [
 		{
-			"id": 1,
+			"id": 39944,
 			"username": "dathymax",
 			"password": "123",
-			"action_key": ["CREATE-USER", "UPDATE-USER", "DELETE-USER"]
+			"actionKey": ["CREATE-USER", "UPDATE-USER", "DELETE-USER"]
 		},
 		{
 			"id": 2,
 			"username": "dathymax1",
 			"password": "123",
-			"action_key": ["CREATE-USER", "UPDATE-USER"]
+			"actionKey": ["CREATE-USER", "UPDATE-USER"]
+		},
+		{
+			"id": 3,
+			"username": "dathymax2",
+			"password": "123",
+			"actionKey": ["CREATE-USER", "UPDATE-USER"]
 		}
 	],
 	"permission": [
 		{
-			"id": 1,
-			"userId": 1,
-			"action_key": ["CREATE-USER", "UPDATE-USER", "DELETE-USER"]
+			"id": 202,
+			"actionKey": ["CREATE-USER", "UPDATE-USER", "DELETE-USER"]
 		},
 		{
-			"id": 2,
-			"userId": 2,
-			"action_key": ["CREATE-USER", "UPDATE-USER"]
-		},
-		{
-			"id": 3,
-			"userId": 3,
-			"action_key": ["CREATE-USER"]
-		},
-		{
-			"id": 4,
-			"userId": 4,
-			"action_key": []
+			"id": 6,
+			"actionKey": []
 		}
 	]
 }
