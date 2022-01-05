@@ -22,11 +22,28 @@
 	"permission": [
 		{
 			"id": 202,
-			"actionKey": ["CREATE-USER", "UPDATE-USER", "DELETE-USER"]
+			"actionKey": {
+				"employee": {
+					"add": "add_Employee",
+					"delete": "delete_Employee",
+					"import": "import_Employee",
+					"export": "export_Employee"
+				},
+				"department": {
+					"add": "add_Department",
+					"delete": "delete_Department",
+					"import": "import_Department",
+					"export": "export_Department"
+				}
+			}
 		},
 		{
 			"id": 6,
 			"actionKey": []
+		},
+		{
+			"id": 100,
+			"actionKey": ["CREATE-USER", "UPDATE-USER", "DELETE-USER"]
 		}
 	]
 }
